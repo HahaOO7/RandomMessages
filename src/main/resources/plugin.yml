@@ -1,0 +1,8 @@
+name: RandomMessages
+version: '${project.version}'
+main: at.haha007.randommessages.RandomMessages
+api-version: 1.19
+authors: [ Haha007 ]
+description: send random messages
+depend:
+  - PlaceholderAPI

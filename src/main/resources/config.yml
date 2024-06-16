@@ -1,0 +1,27 @@
+ten:
+  #requires permission: randommessages.ten
+  #time between sending the message in ticks
+  time: 200
+  #wait 50 ticks to start the timer, defaults to 0
+  offset: 50
+  messages:
+    msg1:
+      #the weight given to this message, defaults to 1
+      weight: 1.0
+      #the message as a list to support multi-line messages
+      message:
+        - "<green>Message #1 %player_name%"
+    msg2:
+      weight: 2.0
+      message:
+        - "<green>Message #2 %player_name%"
+twenty:
+  #time between sending the message in ticks
+  time: 400
+  messages:
+    msg3:
+      message:
+        - "<green>Message #3 %player_name%"
+    msg4:
+      message:
+        - "<green>Message #4 %player_name%"
